@@ -1,0 +1,76 @@
+* {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+h1{
+    background-color: rgb(28, 59, 38);
+    color: white;
+    height: 4rem;
+    /* vertically center ma lana ka trick */
+    line-height: 4rem;
+}
+.choices{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    gap: 80px;
+    height: 250px;
+    align-items: center;
+    
+}
+.choice:hover{
+  /* background-color: rgb(106, 106, 142); */
+    cursor: pointer;
+    border: 10px solid rgb(21, 58, 16);
+}
+.choice{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit:cover;
+    border-radius:50%;
+    /* border: 2px solid rgb(79, 79, 105); */
+}
+/* .img1{
+    height:150px;
+    width: 150px;
+    object-fit: cover; 
+}*/
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 1.5rem;
+}
+#user-score,#comp-score{
+    font-size: 5rem;
+    
+}
+
+#msg{
+
+    line-height: 3rem;
+    font-size: 1.5rem;
+    background-color: rgb(6, 32, 6);
+    height: 50px;
+    width: 400px;
+    border-radius: 1rem;
+    color: white;
+    
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
